@@ -1,26 +1,42 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';    // 이미지를 사용할때도 임포트해서 사용한다.
 import './App.css';
-import { DiAtom } from "react-icons/di";
+// import { DiAtom } from "react-icons/di";  // 아이콘도 마찬가지.
+// import Hello from './01/Hello';
+// import MyClock from './02/MyClock';
+// import MyDiv1 from './03/MyDiv1';
+import MyList from './04/MyList';
+
+import { RiHomeHeartFill } from "react-icons/ri";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className='bg-slate-500'>
-          Edit <code>src/App.js</code> and save to reload.
-          <DiAtom />
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <h1 className="text-3xl font-bold underline text-blue-500">Tailwind 적용 완료!</h1>
+    // <div className="App">
+    //   <header className="App-header">
+    //     <MyClock />
+    //     {/* <img src={logo} className="App-logo" alt="logo" /> */}
+    //     {/* <Hello /> */}
+    //     {/* <p className='bg-slate-500'>
+    //       Edit <code>src/App.js</code> and save to reload.
+    //       <DiAtom />
+    //     </p> */}
+       
+    //   </header>
+    // </div>
+
+    // TailwindCSS를 이용한 화면재구성
+    <div className="flex flex-col w-full h-screen mx-auto">
+      <header className='flex justify-between items-center text-xl font-bold h-20 p-10 bg-slate-200'>
+        <p>React Basic</p>
+        <p><RiHomeHeartFill/></p>
       </header>
+      {/* grow : header와 footer를 쓰고 남은 영역을 모두 사용 */}
+      <main className='grow w-full flex justify-center items-center overflow-y-auto'>
+        {/* <MyDiv1/> */}
+        <MyList/>
+      </main>
+      <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
+        ⓒ Jeong Woo Jeong
+      </footer>
     </div>
   );
 }

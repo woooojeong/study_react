@@ -1,0 +1,22 @@
+[
+    {
+        "title": "HTML",
+        "imgUrl": "./img/html.png",
+        "content": "HTML(HyperText Markup Language)은 웹을 이루는 가장 기초적인 구성 요소로, 웹 문서의 구조를 정의합니다."
+    },
+    {
+        "title": "CSS",
+        "imgUrl": "./img/css.png",
+        "content": "Cascading Style Sheets(CSS)는 HTML이나 XML(XML의 방언인 SVG, XHTML 포함) 문서의 스타일을 지정하기 위한 언어입니다."
+    },
+    {
+        "title": "JavaScript",
+        "imgUrl": "./img/js.png",
+        "content": "웹 페이지를 위한 스크립트 언어로 가벼운 인터프리터 혹은 just-in-time 컴파일 방식을 사용하여 동적인 기능을 구현할 수 있습니다."
+    },
+    {
+        "title": "React",
+        "imgUrl": "./img/react.png",
+        "content": "사용자 인터페이스를 만들기 위한 JavaScript 라이브러리로, 컴포넌트 기반 구조와 효율적인 상태 관리를 제공합니다."
+    }
+]
