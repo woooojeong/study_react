@@ -10,7 +10,6 @@ export default function MyList() {
                                             content = {item.content}
                                 />
                             ); //map메소드를 사용하여 아이템의 개수만큼 만들어진 데이터를 tags 변수에 담는다.
-
   return (
     <div className='w-10/12 grid grid-cols-2 gap-4'>
       {/* <MyListItem/>
