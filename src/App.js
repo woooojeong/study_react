@@ -2,10 +2,10 @@
 import './App.css';
 // import { DiAtom } from "react-icons/di";  // 아이콘도 마찬가지.
 // import Hello from './01/Hello';
-// import MyClock from './02/MyClock';
+import MyClock from './02/MyClock';
 // import MyDiv1 from './03/MyDiv1';
 // import MyList from './04/MyList';
-import Lotto from './05/Lotto';
+// import Lotto from './05/Lotto';
 
 import { RiHomeHeartFill } from "react-icons/ri";
 
@@ -32,9 +32,10 @@ function App() {
       </header>
       {/* grow : header와 footer를 쓰고 남은 영역을 모두 사용 */}
       <main className='grow w-full flex justify-center items-center overflow-y-auto'>
+        <MyClock />
         {/* <MyDiv1/> */}
         {/* <MyList/> */}
-        <Lotto />
+        {/* <Lotto /> */}
       </main>
       <footer className='flex justify-center items-center h-20 bg-black text-slate-100'>
         ⓒ Jeong Woo Jeong
