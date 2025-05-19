@@ -1,14 +1,9 @@
 {
   "posts": [
     {
-      "id": "ec1f",
-      "title": "test",
-      "author": "우정우"
-    },
-    {
       "id": "9327",
       "title": "test",
-      "author": "정우정"
+      "author": "정우정123"
     }
   ],
   "comments": [
