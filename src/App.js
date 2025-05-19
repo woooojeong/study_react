@@ -11,6 +11,8 @@ import Traffic from './06/Traffic';
 import MyRefAdd from './07/MyRefAdd';
 import Gallery from './08/Gallery';
 // import RouteMain from './09/RouteMain';
+import RecoilMain from './10/RecoilMain';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { RiHomeHeartFill } from "react-icons/ri";
@@ -42,6 +44,10 @@ function App() {
                           hover:bg-white hover:text-blue-600">
               <Link to='/gallery'>관광앱</Link>
             </li>
+            <li className="mx-2 p-2 rounded-r-md
+                          hover:bg-white hover:text-blue-600">
+              <Link to='/recoil'>Recoil</Link>
+            </li>
           </ul>
           <p><Link to='/'><RiHomeHeartFill/></Link></p>
         </header>
@@ -53,6 +59,7 @@ function App() {
              <Route path='/traffic' element={<Traffic />}/>
              <Route path='/add' element={<MyRefAdd />}/>
              <Route path='/gallery' element={<Gallery />}/>
+             <Route path='/recoil' element={<RecoilMain />}/>
             <Route />
           </Routes>
           {/* <MyClock /> */}
