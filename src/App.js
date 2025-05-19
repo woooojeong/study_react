@@ -12,6 +12,7 @@ import MyRefAdd from './07/MyRefAdd';
 import Gallery from './08/Gallery';
 // import RouteMain from './09/RouteMain';
 import RecoilMain from './10/RecoilMain';
+import Rest from './11/Rest';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
@@ -48,6 +49,10 @@ function App() {
                           hover:bg-white hover:text-blue-600">
               <Link to='/recoil'>Recoil</Link>
             </li>
+            <li className="mx-2 p-2 rounded-r-md
+                          hover:bg-white hover:text-blue-600">
+              <Link to='/rest'>JSON CRUD예제</Link>
+            </li>
           </ul>
           <p><Link to='/'><RiHomeHeartFill/></Link></p>
         </header>
@@ -60,6 +65,7 @@ function App() {
              <Route path='/add' element={<MyRefAdd />}/>
              <Route path='/gallery' element={<Gallery />}/>
              <Route path='/recoil' element={<RecoilMain />}/>
+             <Route path='/rest' element={<Rest />}/>
             <Route />
           </Routes>
           {/* <MyClock /> */}

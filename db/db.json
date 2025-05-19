@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": "ec1f",
+      "title": "test",
+      "author": "우정우"
+    },
+    {
+      "id": "9327",
+      "title": "test",
+      "author": "정우정"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "This is a comment1.",
+      "postId": 1
+    },
+    {
+      "id": "2",
+      "body": "This is a comment2.",
+      "postId": 1
+    }
+  ]
+}
